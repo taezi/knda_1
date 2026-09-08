@@ -1,0 +1,9 @@
+#carouselExampleControls {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.carousel-item img {
+  height: 800px;
+  object-fit: cover;
+}

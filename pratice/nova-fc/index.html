@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="가상의 축구팀 서울 노바 FC. 팀의 이야기, 경기 일정, 선수단을 만나보세요."
+    />
+    <title>서울 노바 FC | 우리의 도시, 우리의 경기</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="carousel.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문 바로가기</a>
+    <header class="header">
+      <a class="brand" href="#" aria-label="서울 노바 FC 홈"
+        ><span class="brand-mark" aria-hidden="true">N<span>★</span></span
+        ><span>NOVA FC<small>SEOUL · EST. 2024</small></span></a
+      >
+      <nav aria-label="주요 메뉴">
+        <a href="#club">구단 소개</a><a href="#matches">경기 일정</a
+        ><a href="#squad">선수단</a>
+      </nav>
+      <a class="header-link" href="#supporters"
+        >함께 응원하기 <span aria-hidden="true">↗</span></a
+      >
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span> SEOUL NOVA FOOTBALL CLUB
+          </p>
+          <h1 id="hero-title">OUR CITY.<br />OUR <span>GAME.</span></h1>
+          <p class="hero-korean">우리의 도시, 우리의 경기.</p>
+          <p class="hero-description">
+            휘슬이 울리면, 우리는 하나가 된다.<br />서울의 새로운 에너지, 노바
+            FC와 함께.
+          </p>
+          <a class="button" href="#matches"
+            >다음 경기 알아보기 <span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <div class="hero-side">
+          <div class="season-art" aria-hidden="true">
+            <span class="vertical-label">A NEW ERA OF SEOUL FOOTBALL</span
+            ><span class="season-number">26</span
+            ><span class="season-caption">SEASON 2026 — PLAY AS ONE.</span>
+          </div>
+          <article class="next-match">
+            <div class="card-top">
+              <span>NEXT MATCH</span><span class="home-label">HOME</span>
+            </div>
+            <p class="match-league">노바 챌린지 리그 · ROUND 12</p>
+            <div class="versus">
+              <strong>서울 노바</strong><span>VS</span
+              ><strong>부산 웨이브</strong>
+            </div>
+            <p class="match-meta">
+              <time datetime="2026-09-19T19:00:00+09:00">09.19 SAT · 19:00</time
+              ><span>노바 파크</span>
+            </p>
+          </article>
+        </div>
+        <div class="hero-bottom">
+          <span>ONE CITY. ONE TEAM. ONE HEART.</span
+          ><a href="#club">구단 이야기 <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <div class="statement" aria-hidden="true">
+        <span>PASSION</span><b>✳</b><span>TOGETHER</span><b>✳</b
+        ><span>FEARLESS</span><b>✳</b><span>NOVA FC</span>
+      </div>
+
+      <section class="section club" id="club" aria-labelledby="club-title">
+        <div
+          class="stadium-carousel"
+          role="region"
+          aria-roledescription="캐러셀"
+          aria-label="구장 이미지"
+          tabindex="0"
+        >
+          <div class="stadium-viewport">
+            <div class="stadium-track" id="stadium-slides">
+              <figure
+                class="stadium-slide"
+                role="group"
+                aria-roledescription="슬라이드"
+                aria-label="3장 중 1번째"
+              >
+                <img
+                  src="images/stadium-1.jpg"
+                  alt="파란 관중석과 푸른 잔디가 펼쳐진 축구장 전경"
+                  width="1600"
+                  height="900"
+                />
+                <figcaption>
+                  <span>STADIUM / 01</span><strong>함성이 시작되는 곳.</strong
+                  ><a
+                    href="https://www.pexels.com/photo/green-and-blue-soccer-field-3845970/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >사진: Pablo Cordero / Pexels ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure
+                class="stadium-slide"
+                role="group"
+                aria-roledescription="슬라이드"
+                aria-label="3장 중 2번째"
+                aria-hidden="true"
+                inert
+              >
+                <img
+                  src="images/stadium-2.jpg"
+                  alt="지붕으로 둘러싸인 관중석과 초록 잔디의 축구장"
+                  width="1600"
+                  height="900"
+                />
+                <figcaption>
+                  <span>STADIUM / 02</span
+                  ><strong>그라운드 위의 새로운 꿈.</strong
+                  ><a
+                    href="https://www.pexels.com/photo/an-empty-green-soccer-field-12536501/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >사진: Jason Scott / Pexels ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure
+                class="stadium-slide"
+                role="group"
+                aria-roledescription="슬라이드"
+                aria-label="3장 중 3번째"
+                aria-hidden="true"
+                inert
+              >
+                <img
+                  src="images/stadium-3.jpg"
+                  alt="노을 진 하늘 아래 코너 깃발과 조명이 보이는 축구장"
+                  width="1600"
+                  height="900"
+                />
+                <figcaption>
+                  <span>STADIUM / 03</span
+                  ><strong>마지막 휘슬이 울릴 때까지.</strong
+                  ><a
+                    href="https://www.pexels.com/photo/view-of-a-soccer-field-13527463/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >사진: Miguel Marimon / Pexels ↗</a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+            <button
+              class="stadium-arrow stadium-prev"
+              type="button"
+              aria-label="이전 구장 이미지"
+              aria-controls="stadium-slides"
+            >
+              ❮
+            </button>
+            <button
+              class="stadium-arrow stadium-next"
+              type="button"
+              aria-label="다음 구장 이미지"
+              aria-controls="stadium-slides"
+            >
+              ❯
+            </button>
+          </div>
+          <div class="stadium-controls">
+            <p>
+              STADIUM GALLERY
+              <span class="stadium-count" aria-live="polite" aria-atomic="true"
+                >1 / 3</span
+              >
+            </p>
+            <div
+              class="stadium-dots"
+              role="group"
+              aria-label="구장 이미지 선택"
+            >
+              <button
+                type="button"
+                aria-label="첫 번째 구장 이미지"
+                aria-current="true"
+                aria-controls="stadium-slides"
+              ></button>
+              <button
+                type="button"
+                aria-label="두 번째 구장 이미지"
+                aria-controls="stadium-slides"
+              ></button>
+              <button
+                type="button"
+                aria-label="세 번째 구장 이미지"
+                aria-controls="stadium-slides"
+              ></button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="eyebrow">01 / THIS IS NOVA</p>
+          <h2 id="club-title">새로운 별은<br />함께 빛난다.</h2>
+        </div>
+        <div class="club-story">
+          <p>
+            노바는 ‘새롭게 빛나는 별’을 뜻합니다. 2024년, 서울에서 시작된 우리의
+            축구는 언제나 사람을 향합니다.
+          </p>
+          <p>
+            마지막 순간까지 달리는 선수, 목이 쉬도록 노래하는 팬. 서로 다른
+            우리가 같은 꿈으로 모일 때, 그라운드 위에 새로운 이야기가
+            시작됩니다.
+          </p>
+          <div class="values">
+            <span>도전<strong>BE FEARLESS</strong></span
+            ><span>연대<strong>STAY TOGETHER</strong></span
+            ><span>열정<strong>ALL IN</strong></span>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section fixtures"
+        id="matches"
+        aria-labelledby="matches-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 / FIXTURES</p>
+            <h2 id="matches-title">다음 함성의 순간.</h2>
+          </div>
+          <span class="section-note">2026 SEASON · 9월 경기 일정</span>
+        </div>
+        <div class="fixture">
+          <div class="fixture-date">
+            <strong>19</strong><span>SEP<br />SAT</span>
+          </div>
+          <span class="tag">HOME</span>
+          <h3>서울 노바 <span>vs</span> 부산 웨이브</h3>
+          <p>노바 파크 <span>19:00</span></p>
+        </div>
+        <div class="fixture">
+          <div class="fixture-date">
+            <strong>23</strong><span>SEP<br />WED</span>
+          </div>
+          <span class="tag away">AWAY</span>
+          <h3>인천 하버 <span>vs</span> 서울 노바</h3>
+          <p>하버 스타디움 <span>19:30</span></p>
+        </div>
+        <div class="fixture">
+          <div class="fixture-date">
+            <strong>27</strong><span>SEP<br />SUN</span>
+          </div>
+          <span class="tag">HOME</span>
+          <h3>서울 노바 <span>vs</span> 수원 블레이즈</h3>
+          <p>노바 파크 <span>16:00</span></p>
+        </div>
+      </section>
+
+      <section class="section" id="squad" aria-labelledby="squad-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">03 / OUR PLAYERS</p>
+            <h2 id="squad-title">우리의 이름을 기억해.</h2>
+          </div>
+          <span class="section-note">그라운드를 빛내는 노바의 주역들</span>
+        </div>
+        <div class="players">
+          <article class="player">
+            <div class="player-top"><span>FORWARD</span><span>↗</span></div>
+            <div class="player-number">09</div>
+            <div class="player-name">
+              <h3>강도윤</h3>
+              <span>KANG DOYUN</span>
+            </div>
+            <p>골문 앞에서 증명하는 한 방.</p>
+          </article>
+          <article class="player captain">
+            <div class="player-top">
+              <span>MIDFIELDER</span><span class="captain-badge">주장</span>
+            </div>
+            <div class="player-number">10</div>
+            <div class="player-name">
+              <h3>이서준</h3>
+              <span>LEE SEOJUN</span>
+            </div>
+            <p>경기를 읽고, 팀을 이끄는 중심.</p>
+          </article>
+          <article class="player">
+            <div class="player-top"><span>GOALKEEPER</span><span>↗</span></div>
+            <div class="player-number">01</div>
+            <div class="player-name">
+              <h3>박지호</h3>
+              <span>PARK JIHO</span>
+            </div>
+            <p>마지막까지 지켜내는 우리의 골문.</p>
+          </article>
+          <article class="player">
+            <div class="player-top"><span>FORWARD</span><span>↗</span></div>
+            <div class="player-number">09</div>
+            <div class="player-name">
+              <h3>강도윤</h3>
+              <span>KANG DOYUN</span>
+            </div>
+            <p>골문 앞에서 증명하는 한 방.</p>
+          </article>
+          <article class="player">
+            <div class="player-top"><span>MIDFIELDER</span></div>
+            <div class="player-number">10</div>
+            <div class="player-name">
+              <h3>이서준</h3>
+              <span>LEE SEOJUN</span>
+            </div>
+            <p>경기를 읽고, 팀을 이끄는 중심.</p>
+          </article>
+          <article class="player">
+            <div class="player-top"><span>GOALKEEPER</span><span>↗</span></div>
+            <div class="player-number">01</div>
+            <div class="player-name">
+              <h3>박지호</h3>
+              <span>PARK JIHO</span>
+            </div>
+            <p>마지막까지 지켜내는 우리의 골문.</p>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="supporters"
+        id="supporters"
+        aria-labelledby="supporters-title"
+      >
+        <p class="eyebrow">THE 12TH PLAYER IS YOU</p>
+        <h2 id="supporters-title">이 팀의 마지막 선수는,<br />바로 당신.</h2>
+        <p>
+          라임빛 물결 속에서, 같은 이름을 외쳐주세요.<br />우리의 다음 이야기는
+          관중석에서 시작됩니다.
+        </p>
+        <a class="button dark-button" href="#matches"
+          >응원할 경기 찾아보기 <span aria-hidden="true">↗</span></a
+        ><span class="supporters-word" aria-hidden="true">TOGETHER.</span>
+      </section>
+    </main>
+    <footer>
+      <a class="footer-brand" href="#">SEOUL NOVA FC <span>↗</span></a>
+      <p>
+        본 페이지는 연습용으로 제작된 가상 구단의 랜딩페이지입니다.<br />팀,
+        선수, 경기 일정 및 장소는 모두 가상의 정보입니다.
+      </p>
+      <span>© 2026 NOVA FC</span>
+    </footer>
+  </body>
+</html>
